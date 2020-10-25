@@ -20,9 +20,10 @@
     <![endif]-->
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
+      <div class="menu" style="border-style: double;">
+             <nav class="navbar navbar-default">
+      
+           
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
@@ -30,11 +31,12 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Laravel</a>
-            </div>
+          
 
             
-        </div>
-    </nav>
+        
+            </nav>
+    </div>
 
     @yield('content')
 
