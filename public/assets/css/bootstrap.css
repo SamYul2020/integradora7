@@ -68,7 +68,24 @@ body {
 .menu
 {
   color: #681434;
-  background-color: #681434
+  background-color: #681434;
+  }
+.avatar
+{
+  width: 50%;
+  height: 50%;
+}
+
+.copyright{
+  margin-top: 8%;
+ background-color: #681434;
+ padding: 2%;
+
+}
+
+.copyright strong{
+
+ color: #FFFFFF;
 }
 /*---------------------------------------------------------------------------------------*/
 

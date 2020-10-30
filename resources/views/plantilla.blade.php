@@ -20,10 +20,13 @@
     <![endif]-->
 </head>
 <body>
+    <center>
       <div class="menu" style="border-style: double;">
+        <img src="/images/uthlogo.png" style="width: 7%; ">
+
              <nav class="navbar navbar-default">
       
-           
+           <!--
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle Navigation</span>
                     <span class="icon-bar"></span>
@@ -32,16 +35,24 @@
                 </button>
                 <a class="navbar-brand" href="#">Laravel</a>
           
-
-            
+                -->
         
             </nav>
+
     </div>
+    </center>
 
     @yield('content')
 
     <!-- Scripts -->
     
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+
+    <footer>
+
+        <center><div class="copyright"><strong> &copy;2020 - UNIVERSIDAD TECNOLÓGICA DE HUEJOTZINGO</strong></div></center>
+    
+
+    </footer>
 </body>
 </html>
